@@ -1,0 +1,181 @@
+/* Body */
+h1 {
+    font-family: Dialog, serif;
+}
+/* Body */
+
+/* Header */
+.navbar {
+    background-color: #424993;
+}
+
+.titulo-bigosoft {
+    font-family: Dialog, serif;
+    font-size: 100px;
+    padding-left: 100px;
+}
+
+.subtitulo-bigosoft-header {
+    font-family: Dialog, serif;
+    padding-left: 100px;
+    color: #424993;
+}
+.subtitulo-bigosoft {
+    font-family: Dialog, serif;
+    color: #ffaaaa;
+}
+
+@media only screen and (max-width: 800px) {
+    .titulo-bigosoft {
+        display: none;
+    }
+    .subtitulo-bigosoft-header {
+        display: none;
+    }
+    .boton-contacto-header{
+        display: none;
+    }
+}
+
+.boton-contacto-header {
+    border-radius: 20px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+/* Header */
+
+
+/* Footer */
+footer {
+    background-color: #424993;
+    color: white;
+}
+
+.enlace-footer {
+    color: white;
+}
+.enlace-footer:hover {
+    color: #ffaaaa;
+}
+/* Footer */
+
+
+/* Imagen de fondo con efecto que se desplazará con la página (scroll) */
+.image-background {
+    background-image: url("../img/imagen-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* Imagen de fondo con efecto que se desplazará con la página (scroll) */
+
+
+/* Enlace genérico */
+.enlace-generico {
+    color: #ffaaaa;
+}
+.enlace-generico:hover {
+    color: hotpink;
+}
+/* Enlace genérico */
+
+
+/* Formulario de la sección Trabaja con nosotros */
+.formulario {
+    background: rgb(79, 165, 230);
+    background: radial-gradient(circle, rgba(79, 165, 230, 1) 1%, rgba(252, 70, 107, 0.639093137254902) 100%);
+}
+/* Formulario de la sección Trabaja con nosotros */
+
+
+/* Sección contacto/trabaja-con-nosotros */
+.section-contacto-imagen {
+    background-image: url("../img/panel-contacto.jpg");
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.titulo-trabaja-con-nosotros {
+    font-size: 55px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    color: white;
+    background: rgb(39, 57, 105);
+    background: linear-gradient(115deg, rgba(39, 57, 105, 1) 0%, rgba(255, 117, 190, 1) 100%);
+    border-radius: 20px;
+    padding: 30px;
+}
+/* Sección contacto/trabaja-con-nosotros */
+
+
+/* Sección inicio/quienes-somos */
+.section-quienes-somos-imagen {
+    background-image: url("../img/panel-quienes-somos.jpg");
+    height: 533px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.titulo-quienes-somos {
+    font-size: 55px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    color: white;
+    background: rgb(39, 57, 105);
+    background: linear-gradient(115deg, rgba(39, 57, 105, 1) 0%, rgba(255, 117, 190, 1) 100%);
+    border-radius: 20px;
+    padding: 30px;
+}
+/* Sección inicio/quienes-somos */
+
+
+/* Imagen que se pone de fondo rosa, llamado banner */
+.banner {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+/* Imagen que se pone de fondo rosa, llamado banner */
+
+
+/* Diseño de botones con el borde redondeado */
+.boton-general {
+    border-radius: 20px;
+}
+/* Diseño de botones con el borde redondeado */
+
+
+/* Diseño de boton Trabaja con nosotros del inicio */
+.boton-trabaja-con-nosotros {
+    background-color: #424993;
+    color: white;
+}
+.boton-trabaja-con-nosotros:hover {
+    background-color: #424993;
+    color: #ffaaaa;
+}
+/* Diseño de boton Trabaja con nosotros del inicio */
+
+
+/* Formulario de solicitud de información de la sección contacto */
+.formulario-solicitud-info {
+    background-color: #fbd877;
+    border-radius: 20px;
+}
+/* Formulario de solicitud de información de la sección contacto */
+
+
+/* Diseño de la tabla de la sección productos */
+.table {
+    background-color: #424993;
+    color: white;
+    border-radius: 20px;
+}
+/* Diseño de la tabla de la sección productos */
